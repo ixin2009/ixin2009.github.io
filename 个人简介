@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吕宸逸的个人简介</title>
+</head>
+<body>
+    <h1 align="center">吕宸逸</h1><hr>
+    <div align="center"><img src="6.jpg" alt="帅哥" title="帅哥" height="250"></div>
+    
+    <p align="center">
+        <h2 align="center">生平简述</h2>
+        <p align="center">吕宸逸(2009-2023),江苏泰州人,出生在小康家庭的他,从小贪生怕死,乐于玩耍。短短六年的小学生活,教会了他————忍耐</p>
+        <p align="center">一次次打击，一次次挖苦，一次次磨难，最终，还是未能抗下。</p>
+        <h2 align="center">结束了？</h2>
+        <p align="center">命运是多舛的，他诈尸了，他的余生，伴随着铁树上花朵的枯落，逐渐凋谢。</p>
+        <h2 align="center">主要成就</h2>
+        <div align="center"><img src="TMR.jpg" alt="TMR" title="TMR队徽" height="130"></div><br>
+    </p>
+    
+    <p align="center">
+        <strong>前TMR组织主要领导人</strong><br>
+        <strong>初衷社区开拓者</strong><br>
+        <strong>2023泰州市小学初中创意编程与智能设计荣获第50名</strong><br>
+        <strong>本站代码编写者 设计者 </strong>
+    </p>
+    
+    <p align="center">
+        <h2 align="center">代码展示</h2>
+    
+        <table div align="center">
+            <tr>
+                <td>  <div align="center"><img src="c++01.png" alt="未完成的扫雷" title="未完成的扫雷" height="300"></div><br>
+                </td>
+                <td>   <div align="center"><img src="python01.png" alt="pygame制作的井字棋" title="pygame制作的井字棋" height="300"></div><br>
+                </td>
+            </tr>
+        </table>
+        <p align="center"><strong>c++制作的扫雷与python语言pygame模块制作的井字棋(部分)</strong></p>
+
+        <table div align="center">
+            <tr>
+                <td>   <div align="center"><img src="vbs01.png" alt="计算幂的VBScript程序" title="计算幂的VBScript程序" height="300"></div><br>
+                </td>
+                <td>   <div align="center"><img src="html图01.png" alt="本站源码" title="本站源码" height="300"></div><br>
+                </td>
+            </tr>
+        </table>
+        <p align="center"><strong>计算幂的VBscript程序与本站html源码(部分)</strong></p>
+    </p>
+
+</body>
+</html>
