@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>练习文件</title>
+</head>
+<body>
+
+    <h2>无序列表</h2>
+    <ul>
+        <li>我是第一行</li>
+        <li>我是第二行</li>
+        <li>我是第三行</li>
+    </ul>
+    <h2>有序列表</h2>
+    <ol>
+        <li>我是第一行</li>
+        <li>我是第二行</li>
+        <li>我是第三行</li>
+    </ol>
+    <h2>定义列表</h2>
+    <dd>
+        <dt>我是定义列表标题</dt>
+        <dl>我是第一项</dl>
+        <dl>我是第二项</dl>
+        <dl>我是第三项</dl>
+    </dd>
+
+    <h2>表格</h2>
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>语文</th>
+                <th>数学</th>
+                <th>英语</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>小红</td>
+                <td>60</td>
+                <td rowspan="2">59</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>小明</td>
+                <td>59</td>
+                <!-- <td>59</td> -->
+                <td rowspan="2">99</td>
+                <!-- 数字为合并格数 -->
+            </tr>
+
+            <tr>
+                <td>小华</td>
+                <td>10</td>
+                <td>48</td>
+                <!-- <td>99</td> -->
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <td>总结</td> 
+                <td colspan="3">全市第一</td>
+                <!-- <td>全市第一</td>
+                <td>全市第一</td> -->
+            </tr>
+
+        </tfoot>
+        
+    </table>
+
+    <h2>input标签</h2>
+    文本框:<input type="text" placeholder="文本信息">
+    <br><br>
+    密码框:<input type="password" placeholder="密码">
+    <br><br>
+    单选框:<input type="radio">
+    <br><br>
+    多选框:<input type="checkbox">
+    <br><br>
+    传文件:<input type="file">
+
+    <h2>input拓展</h2>
+    您的性别:
+    <input type="radio" name="gender" checked>男
+    <input type="radio" name="gender">女
+    <input type="radio" name="gender">1
+    <input type="radio" name="gender">0
+    <input type="radio" name="gender">t
+    <input type="radio" name="gender">p
+    <input type="radio" name="gender">h
+    <br><br>
+    上传多个文件:
+    <input type="file" multiple>
+    <br><br>
+    兴趣爱好:
+    <input type="checkbox">python
+    <input type="checkbox">c/c++
+    <input type="checkbox">c#
+    <input type="checkbox">html/css/js
+    <input type="checkbox">java
+    <input type="checkbox">unity
+    <input type="checkbox">go
+    <input type="checkbox">spring
+    <input type="checkbox">ruby
+    <input type="checkbox">VBscript/VB
+    <br><br>
+
+    <h2>杂七杂八</h2>
+    城市
+    <select>
+        <option>北京</option>
+        <option>上海</option>
+        <option>广东</option>
+        <option>深圳</option>
+    </select>
+    <br><br>
+    文本域
+    <textarea placeholder="输入文本"></textarea>
+    <br><br>
+    性别(体验极好版)
+    <!-- 写法1 -->
+    <input type="radio" id="man" name="gender">
+    <label for="man">男</label>
+    <!-- 写法2 -->
+    <label><input type="radio" name="gender">女</label>
+    <br><br>
+    登录界面<br>
+    <form>
+        用户<input type="text"><br>
+        密码<input type="password"><br>
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+        <button type="button">按钮</button>
+    </form>
+    <br><br>
+    <!-- 网页布局标签 根据实际情况选用 -->
+    <div>独占一行</div>
+    <div>独占一行</div>
+    <span>不换行</span>
+    <span>不换行</span>
+    <br><br>
+    显示字符(小于号 空格 大于号):
+    &lt;啊&nbsp;对&nbsp;对&nbsp;对&gt;
+    <br><br>
+    <h2>综合案例1:体育新闻列表</h2>
+    <ul>
+        <li>
+            <img src="体育新闻01.png">
+            <h3>主帅安东尼奥回西班牙休假&nbsp;国青抵达海口进行隔离</h3>
+        </li>
+
+        <li>
+            <img src="体育新闻02.png">
+            <h3>梅州主帅:申花有强有力的教练组&nbsp;球员体能水平高</h3>
+        </li>
+
+        <li>
+            <img src="体育新闻03.png">
+            <h3>马德兴:00后球员将首登亚洲舞台&nbsp;调整心态才务实</h3>
+        </li>
+    </ul>
+    <h2>综合案例2:注册信息</h2>
+    <h3>注册信息</h3>
+
+    <h4>个人信息</h4>
+    <form>
+        姓名:<input type="text" placeholder="请输入真实姓名"><br><br>
+        密码:<input type="password" placeholder="请输入密码"><br><br>
+        确认密码:<input type="password" placeholder="请再次输入以确认"><br><br>
+        性别:<label><input type="radio" name="gender">男</label><label><input type="radio" name="gender">女</label>
+
+        <h4>教育经历</h4>
+        最高学历:
+        <select>
+            <option>博士</option>
+            <option>硕士</option>
+            <option>研究生</option>
+            <option>本科</option>
+            <option>大专</option>
+            <option>高中</option>
+            <option>初中</option>
+            <option>小学</option>
+            <option>幼儿园</option>
+            <option>胎教</option>
+        </select><br><br>
+        学校名称:<input type="text"><br><br>
+        所学专业:<input type="text"><br><br>
+        在校时间:
+        <select>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+        </select>
+        --
+        <select>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+        </select>
+    
+        <h4>工作经历</h4>
+        公司名称:<input type="text"><br><br>
+        工作描述:<br>
+        <textarea></textarea><br><br>
+        <label><input type="checkbox">已阅读并同意以下协议:</label><br>
+        <ul>
+            <li><a href="https://www.ldbj.com/falv/xianfa.htm">《宪法》</a></li>
+            <li><a href="https://www.lawtime.cn/faguizt/462.html">《民法》</a></li>
+        </ul><br><br>
+        
+        <button type="button">打款注册</button>
+        <button type="reset">点击清空</button>
+    </form>
+</body>
+</html>
